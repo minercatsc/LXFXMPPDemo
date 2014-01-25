@@ -1,13 +1,14 @@
 //
-//  ViewController.h
+//  Statics.h
 //  LXFXMPPDemo
 //
 //  Created by iObitLXF on 4/25/13.
 //  Copyright (c) 2013 iObitLXF. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+@interface Statics : NSObject
 
-@interface ViewController : UIViewController
++(NSString *)getCurrentTime;
 
 @end
